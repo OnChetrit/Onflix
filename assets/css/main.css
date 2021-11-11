@@ -1,0 +1,78 @@
+@import './onflix.css';
+@import './count-down.css';
+@import './show-time.css';
+@import './wiring-ups.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141414;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h5 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  gap: 20px;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.active {
+  color: #dc1a28;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* HELPERS */
+.flex {
+  display: flex;
+}
+.flex.direction-col {
+  flex-direction: column;
+}
+.flex.justify-end {
+  justify-content: flex-end;
+}
+.flex.justify-center {
+  justify-content: center;
+}
+.flex.align-center {
+  align-items: center;
+}
+.flex.space-between {
+  justify-content: space-between;
+}
+.flex.align-center {
+  align-items: center;
+}

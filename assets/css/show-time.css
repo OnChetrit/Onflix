@@ -1,0 +1,15 @@
+.show-time {
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.time {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.last-sec {
+  color: red;
+}
