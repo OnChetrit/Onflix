@@ -17,113 +17,113 @@ let gShowsCount;
 const tvShowsComedy = [
   {
     title: 'Big Mama',
-    img: '../assets/img/shows/big-mama.jpg',
+    img: 'assets/img/shows/big-mama.jpg',
   },
   {
     title: 'HangOver',
-    img: '../assets/img/shows/hangover.jpg',
+    img: 'assets/img/shows/hangover.jpg',
   },
   {
     title: 'We are the millers',
-    img: '../assets/img/shows/we-are-the-millers.jpg',
+    img: 'assets/img/shows/we-are-the-millers.jpg',
   },
   {
     title: 'Dont mess with zohan',
-    img: '../assets/img/shows/zohan.jpg',
+    img: 'assets/img/shows/zohan.jpg',
   },
   {
     title: 'Bad neighbours',
-    img: '../assets/img/shows/bad-neighbours.jpg',
+    img: 'assets/img/shows/bad-neighbours.jpg',
   },
 ];
 const tvShowsAction = [
   {
     title: 'Shooter',
-    img: '../assets/img/shows/shooter.jpg',
+    img: 'assets/img/shows/shooter.jpg',
   },
   {
     title: 'The Purge 2',
-    img: '../assets/img/shows/the-purge-2.jpg',
+    img: 'assets/img/shows/the-purge-2.jpg',
   },
   {
     title: 'Chappie',
-    img: '../assets/img/shows/chappie.jpg',
+    img: 'assets/img/shows/chappie.jpg',
   },
   {
     title: "Assassin's Creed",
-    img: '../assets/img/shows/assassins-creed.jpg',
+    img: 'assets/img/shows/assassins-creed.jpg',
   },
   {
     title: 'The Dark Knight',
-    img: '../assets/img/shows/the-dark-knight.jpg',
+    img: 'assets/img/shows/the-dark-knight.jpg',
   },
 ];
 const tvShowsTrend = [
   {
     title: 'Blacklist',
-    img: '../assets/img/shows/blacklist.jpg',
+    img: 'assets/img/shows/blacklist.jpg',
   },
   {
     title: 'Control Z',
-    img: '../assets/img/shows/control-z.jpg',
+    img: 'assets/img/shows/control-z.jpg',
   },
   {
     title: 'Lupin',
-    img: '../assets/img/shows/lupin.jpg',
+    img: 'assets/img/shows/lupin.jpg',
   },
   {
     title: 'Passengers',
-    img: '../assets/img/shows/passengers.jpg',
+    img: 'assets/img/shows/passengers.jpg',
   },
   {
     title: 'Vikings',
-    img: '../assets/img/shows/vikings.jpg',
+    img: 'assets/img/shows/vikings.jpg',
   },
 ];
 const gShowsList = [
   {
     title: 'Fauda',
-    img: '../assets/img/shows/fauda.jpg',
+    img: 'assets/img/shows/fauda.jpg',
   },
   {
     title: 'Breaking Bad',
-    img: '../assets/img/shows/breaking-bad.jpg',
+    img: 'assets/img/shows/breaking-bad.jpg',
   },
   {
     title: 'Money Heist',
-    img: '../assets/img/shows/casa-de-papel.jpg',
+    img: 'assets/img/shows/casa-de-papel.jpg',
   },
   {
     title: 'Prison Break',
-    img: '../assets/img/shows/prison-break.jpg',
+    img: 'assets/img/shows/prison-break.jpg',
   },
   {
     title: 'Too Hot To Handle',
-    img: '../assets/img/shows/too-hot.jpg',
+    img: 'assets/img/shows/too-hot.jpg',
   },
   {
     title: 'Big Mouth',
-    img: '../assets/img/shows/big-mouth.jpg',
+    img: 'assets/img/shows/big-mouth.jpg',
   },
   {
     title: 'Black Mirror',
-    img: '../assets/img/shows/black-mirror.jpg',
+    img: 'assets/img/shows/black-mirror.jpg',
   },
   {
     title: 'Designated Survivor',
-    img: '../assets/img/shows/designated-survivor.jpg',
+    img: 'assets/img/shows/designated-survivor.jpg',
   },
   {
     title: 'Friends',
-    img: '../assets/img/shows/friends.jpg',
+    img: 'assets/img/shows/friends.jpg',
   },
   {
     title: 'Suits',
-    img: '../assets/img/shows/suits.jpg',
+    img: 'assets/img/shows/suits.jpg',
   },
   {
     title: 'Elite',
-    img: '../assets/img/shows/elite.jpg',
+    img: 'assets/img/shows/elite.jpg',
   },
 ];
 
@@ -170,11 +170,11 @@ function _createUsers() {
   var users = StorageService.loadFromStorage(KEY);
   if (!users || !users.length) {
     users = [];
-    users.push(_createUser('../assets/img/my-user.png', 'On'));
-    users.push(_createUser('../assets/img/green-user.png', 'Adir'));
-    users.push(_createUser('../assets/img/orange-user.png', 'Muki'));
-    users.push(_createUser('../assets/img/red-user.png', 'Shmulik'));
-    users.push(_createUser('../assets/img/light-user.png', 'Popo'));
+    users.push(_createUser('assets/img/my-user.png', 'On'));
+    users.push(_createUser('assets/img/green-user.png', 'Adir'));
+    users.push(_createUser('assets/img/orange-user.png', 'Muki'));
+    users.push(_createUser('assets/img/red-user.png', 'Shmulik'));
+    users.push(_createUser('assets/img/light-user.png', 'Popo'));
   }
   gUsers = users;
   _saveUsersToStorage();

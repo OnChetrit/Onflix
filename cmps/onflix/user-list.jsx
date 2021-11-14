@@ -16,7 +16,7 @@ export function UsersList(props) {
         }}
       >
         <div className="add-user-container flex justify-center align-center">
-          <img src="../assets/img/add-user.png"></img>
+          <img src="assets/img/add-user.png"></img>
         </div>
         <h2>Add Profile</h2>
       </div>

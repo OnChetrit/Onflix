@@ -59,7 +59,7 @@ export class UserApp extends React.Component {
 
     return (
       <section className="direction-col">
-        <img className="logo" src="../assets/img/logo.png"></img>
+        <img className="logo" src="assets/img/logo.png"></img>
         {user ? (
           <UserDetails
             user={user}

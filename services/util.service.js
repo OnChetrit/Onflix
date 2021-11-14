@@ -70,5 +70,5 @@ function getRandomImg() {
   let randomNum = getRandomIntInclusive(0, 3);
   const imgs = ['green', 'orange', 'red', 'light'];
   let img = imgs[randomNum];
-  return `../assets/img/${img}-user.png`;
+  return `assets/img/${img}-user.png`;
 }
